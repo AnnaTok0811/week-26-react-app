@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Light";   /*Can be any text*/
+    src: local("Montserrat-Light"),
+      url("../font/static/Montserrat-Light.ttf") format("truetype");
+  }
+  
+
+.App{
+    max-width: 60%;
+    margin: auto;
+}

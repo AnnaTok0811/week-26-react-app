@@ -1,0 +1,30 @@
+@import "../../style/variables.scss";
+@import "../../style/mixins.scss";
+
+.container {
+    @include word_container;
+    // margin-bottom: 0.8em;
+}
+
+.pseudoBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.buttons {
+    @include btn_group;
+    margin-bottom: 0.8em;
+}
+
+.btn {
+    @include btn;
+}
+
+.input {
+    @include input;
+}

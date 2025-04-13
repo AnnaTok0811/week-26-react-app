@@ -1,0 +1,54 @@
+@import "../../style/variables.scss";
+@import "../../style/mixins.scss";
+
+.banner{
+    min-height: calc(100vh - 80px);
+    display: flex;
+}
+
+.block1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:5px;
+    align-items: center;
+    place-content: center;
+    align-content: center;
+    padding-right: 10px;
+
+}
+.block2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display: flex;
+    width:70%;
+    align-items: center;
+    margin-left: 60px;
+    // min-width: 60px;
+
+}
+// .btn_banner{
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-around;
+//     margin-bottom: 20px;
+
+// }
+.title {
+
+    @include main-text(1.4em, 600);
+}
+
+.subtitle {
+    
+    margin: auto 0.5em;
+    @include main-text(0.9em);
+}
+
+// .card_btn,
+// .train_btn {
+//     @include btn;
+// }

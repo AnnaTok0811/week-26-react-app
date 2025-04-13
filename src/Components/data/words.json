@@ -1,0 +1,193 @@
+[
+    {
+        "id": 1,
+        "word": "Coat",
+        "transcription": "[ˈkəʊt]",
+        "translate": "Пальто",
+        "tag": "одежда"
+    },
+    {
+        "id": 2,
+        "word": "Jacket",
+        "transcription": "[ˈdʒækɪt]",
+        "translate": "Куртка, жакет",
+        "tag": "одежда"
+    },
+    {
+        "id": 3,
+        "word": "Raincoat",
+        "transcription": "[ˈreɪnkəʊt]",
+        "translate": "Плащ, дождевик",
+        "tag": "одежда"
+    },
+    {
+        "id": 4,
+        "word": "Fur coat",
+        "transcription": "[fɜː ˈkəʊt]",
+        "translate": "Шуба",
+        "tag": "одежда"
+    },
+    {
+    "id": 5,
+    "word": "Jumper",
+    "transcription": "[ˈdʒʌmpə]",
+    "translate": "Джемпер",
+    "tag": "одежда"
+}, 
+{
+    "id": 6,
+    "word": "Shirt",
+    "transcription": "[ʃɜːt]",
+    "translate": "Рубашка",
+    "tag": "одежда"
+
+},
+{
+    "id": 7,
+    "word": "Blouse",
+    "transcription": "[ˈblaʊz]",
+    "translate": "Блузка",
+    "tag": "одежда"
+},
+{
+    "id": 8,
+    "word": "T-shirt",
+    "transcription": "[ˈtiːʃɜːt]",
+    "translate": "Футболка",
+    "tag": "одежда"
+},
+{
+    "id": 9,
+    "word": "Dress",
+    "transcription": "[skɜːt]",
+    "translate": "Юбка",
+    "tag": "одежда"
+},
+{
+    "id": 10,
+    "word": "Stockings",
+    "transcription": "[ˈstɒkɪŋz]",
+    "translate": "Чулки",
+    "tag": "одежда"
+},
+{
+    "id": 11,
+    "word": "Mitten",
+    "transcription": "['mıtn]",
+    "translate": "Варежка",
+    "tag": "одежда"
+},
+{
+    "id": 12,
+    "word": "corset",
+    "transcription": "['kɔ:sıt]",
+    "translate": "корсет",
+    "tag": "одежда"
+},
+{
+    "id": 13,
+    "word": "dressing gown",
+    "transcription": "['dresıŋgaun]",
+    "translate": "халат",
+    "tag": "одежда"
+},
+{
+    "id": 14,
+    "word": "waistcoat",
+    "transcription": "['weıskəut]",
+    "translate": "жилет",
+    "tag": "одежда"
+},
+{
+    "id": 15,
+    "word": "drawer",
+    "transcription": "['drɔ:ə]",
+    "translate": "панталоны (женские)",
+    "tag": "одежда"
+},
+{
+    "id": 16,
+    "word": "swimsuit",
+    "transcription": "['swɪmsu:t]",
+    "translate": "купальник",
+    "tag": "одежда"
+},
+{
+    "id": 17,
+    "word": "nighty",
+    "transcription": "['naıtı]",
+    "translate": "ночная сорочка",
+    "tag": "одежда"
+},
+{
+    "id": 18,
+    "word": "match",
+    "transcription": "[mæʧ]",
+    "translate": "гармонировать",
+    "tag": "одежда"
+},
+{
+    "id": 19,
+    "word": "underwear",
+    "transcription": "['ʌndəweə]",
+    "translate": "нижнее бельё",
+    "tag": "одежда"
+},
+{
+    "id": 20,
+    "word": "cloak",
+    "transcription": "[kləuk]",
+    "translate": "плащ",
+    "tag": "одежда"
+},
+{
+    "id": 21,
+    "word": "sweatshirt",
+    "transcription": "['swetʃɜ:t]",
+    "translate": "толстовка",
+    "tag": "одежда"
+},
+{
+    "id": 22,
+    "word": "try on",
+    "transcription": "[traıɔn]",
+    "translate": "примерять (в магазине)",
+    "tag": "одежда"
+},
+{
+    "id": 23,
+    "word": "nappy",
+    "transcription": "['næpı]",
+    "translate": "подгузник",
+    "tag": "одежда"
+},
+{
+    "id": 24,
+    "word": "wide trousers",
+    "transcription": "[waıd'trauzəz]",
+    "translate": "шаровары",
+    "tag": "одежда"
+},
+{
+    "id": 25,
+    "word": "slippers",
+    "transcription": "['slıpəs]",
+    "translate": "тапочки",
+    "tag": "одежда"
+},
+{
+    "id": 26,
+    "word": "tight",
+    "transcription": "[taıt]",
+    "translate": "тесный",
+    "tag": "одежда"
+},
+{
+    "id": 27,
+    "word": "kilt",
+    "transcription": "[kılt]",
+    "translate": "килт",
+    "tag": "одежда"
+}
+
+]

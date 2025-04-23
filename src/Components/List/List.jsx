@@ -1,10 +1,19 @@
-
+import { useState } from 'react';
 import Wordlist from '../Wordlist/Wordlist'
-import words from '../data/words.json'
+import wordsData from '../data/words.json'
 import st from './List.module.scss'
 
 export default function List() {
+
+const [words, setWords] = useState(wordsData);
+const updateWord = (id, newWord, newTranslate) => {
+setWords(words.map(item =>
+item.id === id ? { ...item, word: newWord, translate: newTranslate } : item
+));
+};
+    
     return (
+
         <div className={st.container}>
             <ul className={st.list_container}>
                 <li className={st.item}>Слово</li>
@@ -15,7 +24,7 @@ export default function List() {
                 
             </ul >
             {words.map(item => (//спросить у кати
-                <Wordlist key={item.id} item={{ ...item }} />
+                <Wordlist key={item.id} item={item} updateWord={updateWord}/>
             ))}
         </div>
     )

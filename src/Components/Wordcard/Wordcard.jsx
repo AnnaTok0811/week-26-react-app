@@ -4,6 +4,7 @@ import style from './Wordcard.module.scss'
 
 export default function Wordcard(props) {
   // const { word, transcription, translate, pressed, setPressed, countWords } = props
+ 
 
   return (
     <div className={style.wordbox}>

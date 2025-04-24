@@ -9,6 +9,8 @@ export default function Wordlist({ item, updateWord }) {
     const [isEditMode, setIsEditMode] = useState(false);
 const [wordValue, setWordValue] = useState(word);
 const [translateValue, setTranslateValue] = useState(translate);
+const [transcriptionValue, setTranscriptionValue] = useState(transcription);
+const [tagValue, setTagValue] = useState(tag);
 const [isDeleted, setIsDeleted] = useState(false);
 
 const handleEditMode = () => {
@@ -18,11 +20,13 @@ setIsEditMode(true);
 const handleCancel = () => {
 setWordValue(word);
 setTranslateValue(translate);
+setTranscriptionValue(transcription);
+setTagValue(tag);
 setIsEditMode(false);
 };
 
 const onSave = () => {
-updateWord(id, wordValue, translateValue);
+updateWord(id, wordValue, translateValue, tagValue, transcriptionValue)
 setIsEditMode(false);
 };
 
@@ -35,12 +39,12 @@ setIsEditMode(false);
             <>
                 <input value={wordValue} onChange={(event)=>setWordValue(event.target.value)} className={style.input} placeholder='Введите слово' defaultValue={wordValue}></input>
                 <input value={translateValue} onChange={(event)=>setTranslateValue(event.target.value)} className={style.input} placeholder='Введите перевод' defaultValue={translateValue}></input>
-                <input className={style.input} placeholder='Введите транскрипцию' defaultValue={transcription}></input>
-                <input className={style.input} placeholder='Введите категорию' defaultValue={tag}></input>
+                <input value={transcriptionValue} onChange={(event)=>setTranscriptionValue(event.target.value)} className={style.input} placeholder='Введите транскрипцию' defaultValue={transcriptionValue}></input>
+                <input value={tagValue} onChange={(event)=>setTagValue(event.target.value)}className={style.input} placeholder='Введите категорию' defaultValue={tagValue}></input>
                 <div className={style.buttons}>
                     <button onClick={onSave} className={style.btn}>Сохранить</button>
                     <button className={style.btn} onClick={handleCancel}>Отмена</button>
-                </div>
+                </div> 
             </>
         )
     }
